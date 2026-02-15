@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBL Presentation | 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+        body { background-color: #020617; color: #f8fafc; font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #60a5fa, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+
+<body>
+
+<nav class="fixed w-full z-50 glass border-b border-slate-800/50 px-8 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-4">
+        <div class="flex flex-col text-left">
+            <span class="text-xl font-black uppercase tracking-tighter">PBL <span class="text-blue-500 italic">2026</span></span>
+            <span class="text-[9px] text-slate-400 font-bold uppercase tracking-widest mt-1">
+                Dept. of Computer Science & Engineering
+            </span>
+        </div>
+    </div>
+</nav>
+
+<main class="max-w-6xl mx-auto px-6 pt-48 pb-32 space-y-32">
+
+    <!-- HERO -->
+    <section class="text-center">
+        <div class="inline-block px-4 py-1 border border-slate-800 rounded-full text-slate-500 text-[10px] font-mono mb-6 uppercase tracking-widest">
+            ID: 23FE10CSE00651
+        </div>
+
+        <h1 class="text-6xl md:text-7xl font-extrabold mb-8 uppercase leading-tight">
+            <span class="gradient-text">A Girl’s Best Friend</span>
+        </h1>
+
+        <p class="text-slate-400 max-w-2xl mx-auto italic text-lg leading-relaxed border-l-2 border-blue-500/30 pl-6 text-left">
+            Hypothesis: A secure, user-friendly web application can simplify menstrual health management by
+            accurately tracking cycles, moods, and patterns while providing predictions, reminders, and
+            personalized insights.
+        </p>
+    </section>
+
+    <!-- PROBLEM -->
+    <section id="problem" class="grid md:grid-cols-2 gap-12 items-stretch">
+        <div class="glass p-10 rounded-[2.5rem] flex flex-col justify-center border-l-4 border-blue-600">
+            <h2 class="text-3xl font-extrabold mb-6">Problem Statement</h2>
+            <p class="text-slate-400 leading-relaxed text-justify">
+                Many women find it difficult to accurately track menstrual cycles, predict upcoming periods,
+                understand mood changes, and maintain long-term health records. Existing solutions often lack
+                personalization, emotional relatability, or secure data handling. This creates confusion,
+                missed patterns, and increased stress in managing menstrual health.
+            </p>
+        </div>
+
+        <div class="space-y-6">
+            <div class="glass p-7 rounded-3xl border-r-4 border-blue-500/50">
+                <h3 class="text-blue-400 font-bold text-xs uppercase tracking-widest mb-2">
+                    Literature Review / Market Research
+                </h3>
+                <p class="text-sm text-slate-500 italic">
+                    Existing menstrual tracking applications mainly focus on basic period logging and
+                    predictions. Most lack integrated mood analysis, detailed analytics, or strong security
+                    features such as two-factor authentication, limiting user trust and long-term engagement.
+                </p>
+            </div>
+
+            <div class="glass p-7 rounded-3xl border-r-4 border-purple-500/50">
+                <h3 class="text-purple-400 font-bold text-xs uppercase tracking-widest mb-2">
+                    Research Gap / Innovation
+                </h3>
+                <p class="text-sm text-slate-500 italic">
+                    This project bridges the gap by combining cycle tracking, mood analysis, data visualization,
+                    secure authentication, and educational resources into a single personalized platform,
+                    offering both emotional support and technical reliability.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- METHODOLOGY -->
+    <section id="methodology" class="space-y-12">
+        <h2 class="text-4xl font-black text-center uppercase tracking-tight">
+            System <span class="text-blue-500">Methodology</span>
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass p-8 rounded-3xl text-center">
+                <i class="fas fa-database text-blue-500 text-3xl mb-4"></i>
+                <h3 class="font-bold mb-2 uppercase text-xs tracking-widest">Input Data</h3>
+                <p class="text-sm text-slate-500">
+                    User-entered menstrual cycle details, mood logs, and personal preferences stored securely.
+                </p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl text-center">
+                <i class="fas fa-microchip text-purple-500 text-3xl mb-4"></i>
+                <h3 class="font-bold mb-2 uppercase text-xs tracking-widest">System Architecture</h3>
+                <p class="text-sm text-slate-500">
+                    MERN stack architecture with REST APIs, prediction logic, analytics processing, and secure authentication.
+                </p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl text-center">
+                <i class="fab fa-node-js text-green-500 text-3xl mb-4"></i>
+                <h3 class="font-bold mb-2 uppercase text-xs tracking-widest">Implementation</h3>
+                <p class="text-sm text-slate-500">
+                    Frontend built with React, backend with Express and Node.js, and MongoDB for data storage.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="text-center pt-10 border-t border-slate-900">
+        <h2 class="text-[10px] font-black text-slate-600 uppercase tracking-[0.5em] mb-12">
+            Academic Credits
+        </h2>
+
+        <div class="flex flex-wrap justify-center gap-10">
+            <div class="glass px-12 py-8 rounded-[2rem] border-b-4 border-blue-600">
+                <p class="text-[9px] font-bold text-blue-500 mb-2 uppercase tracking-widest">
+                    Project Guide
+                </p>
+                <p class="font-black text-xl text-slate-100">
+                    Dr. Sakshi Shringi
+                </p>
+            </div>
+
+            <div class="glass px-12 py-8 rounded-[2rem] border-b-4 border-slate-700">
+                <p class="text-[9px] font-bold text-slate-400 mb-2 uppercase tracking-widest">
+                    Student
+                </p>
+                <p class="font-black text-xl text-slate-100">
+                    Dhun Narendra Sojitra
+                </p>
+                <p class="text-[10px] text-slate-500 mt-1">
+                    23FE10CSE00651
+                </p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="py-12 text-center bg-black/40 border-t border-slate-900">
+    <p class="text-slate-600 text-[10px] font-bold tracking-[0.3em] uppercase mb-2">
+        Manipal University Jaipur
+    </p>
+    <p class="text-slate-500 text-[9px] font-medium tracking-[0.2em] uppercase opacity-50">
+        Department of Computer Science & Engineering • 2026
+    </p>
+</footer>
+
+</body>
+</html>
